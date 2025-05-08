@@ -3,6 +3,7 @@
   <head>
     <title>DevWallop</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +12,19 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Wallisson Lopes</a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
+          <li class="nav-item"><%= link_to "Sobre", about_path, class: "nav-link" %></li>
+          <li class="nav-item"><%= link_to "Projetos", projects_path, class: "nav-link" %></li>
+          <li class="nav-item"><%= link_to "Contato", contact_path, class: "nav-link" %></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
     <%= yield %>
   </body>
 </html>
