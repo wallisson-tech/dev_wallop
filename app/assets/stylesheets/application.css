@@ -18,3 +18,13 @@ body {
 .main-content {
   flex: 1;
 }
+
+.section-title {
+  display: inline-block;
+  border-bottom: 3px solid #aaabae;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
