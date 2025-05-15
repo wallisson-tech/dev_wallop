@@ -13,21 +13,31 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="/"> w$ wallop.dev</a>
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
-          <li class="nav-item"><%= link_to "Sobre", about_path, class: "nav-link" %></li>
-          <li class="nav-item"><%= link_to "Projetos", projects_path, class: "nav-link" %></li>
-          <li class="nav-item"><%= link_to "Contato", contact_path, class: "nav-link" %></li>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container d-flex align-items-center justify-content-start">
+        <%= link_to "w$ wallop.dev", root_path, class: "navbar-brand fw-bold me-4" %>
+
+        <ul class="navbar-nav d-flex flex-row custom-gap mb-0">
+          <li class="nav-item">
+            <%= link_to "Home", root_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Sobre", about_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Projetos", projects_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Contato", contact_path, class: "nav-link" %>
+          </li>
         </ul>
       </div>
     </nav>
 
-      <div class="container mt-4">
-        <%= yield %>
-      </div>
+
+    <div class="container mt-4">
+      <%= yield %>
+    </div>
       
     <footer class="footer mt-auto py-3 bg-light text-center">
       <div class="container">
@@ -35,5 +45,6 @@
         <span>Powered by <a href="https://github.com/wallisson-tech" rel="noopener" target="_blank">Wallisson-Tech</a></span>
       </div>
     </footer>
+
   </body>
 </html>

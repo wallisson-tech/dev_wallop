@@ -11,6 +11,7 @@
 }
 
 body {
+  padding-top: 70px; /* ajuste conforme a altura da sua navbar */
   display: flex;
   flex-direction: column;
 }
@@ -28,3 +29,10 @@ body {
   font-size: 2rem;
 }
 
+.custom-gap > .nav-item {
+  margin-right: 0.75rem; /* aproximadamente 16px */
+}
+
+.custom-gap > .nav-item:last-child {
+  margin-right: 0;
+}
