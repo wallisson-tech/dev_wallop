@@ -75,7 +75,10 @@ http://localhost:3000
 
 ## 📸 Preview
 
-> *(Você pode adicionar aqui uma imagem ou um link para o site rodando no futuro)*
+Imagem website
+
+<p align="center">
+<img src="img-project-wallop.png">
 
 ---
 
