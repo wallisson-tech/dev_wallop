@@ -75,10 +75,8 @@ http://localhost:3000
 
 ## 📸 Preview
 
-Imagem - website
-
 <p align="center">
-  <img src="img-project-wallop.png">
+<img src="img-project-wallop.png">
 </p>
 
 ---
