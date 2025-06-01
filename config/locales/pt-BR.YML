@@ -1,0 +1,9 @@
+pt-BR:
+  hello: "Olá"
+  site:
+    title: "Meu Portfólio"
+    home: "Início"
+    about: "Sobre"
+    contact: "Contato"
+    projects: "Projetos"
+  

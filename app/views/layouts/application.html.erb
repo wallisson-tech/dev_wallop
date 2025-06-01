@@ -19,19 +19,20 @@
 
         <ul class="navbar-nav d-flex flex-row custom-gap mb-0">
           <li class="nav-item">
-            <%= link_to "Home", root_path, class: "nav-link" %>
+            <%= link_to t("site.home"), root_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "Sobre", about_path, class: "nav-link" %>
+            <%= link_to t("site.about"), about_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "Projetos", projects_path, class: "nav-link" %>
+            <%= link_to t("site.projects"), projects_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "Contato", contact_path, class: "nav-link" %>
+            <%= link_to t("site.contact"), contact_path, class: "nav-link" %>
           </li>
         </ul>
       </div>
+      <%= render "layouts/locale_links" %>
     </nav>
 
 
