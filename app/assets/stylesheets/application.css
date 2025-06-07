@@ -8,6 +8,7 @@
 
  html, body {
   height: 100%;
+  color: #333;
 }
 
 body {
@@ -35,4 +36,8 @@ body {
 
 .custom-gap > .nav-item:last-child {
   margin-right: 0;
+}
+
+.links a:hover{
+  font-size: 2em;
 }
