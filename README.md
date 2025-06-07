@@ -75,7 +75,7 @@ http://localhost:3000
 ## 📸 Preview
 
 <p align="center">
-  <img src="img-project-wallop.png" alt="Preview do projeto" width="600">
+  <img src="images/img-project-wallop.png" alt="Preview do projeto" width="600">
 </p>
 
 ---
