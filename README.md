@@ -72,11 +72,10 @@ http://localhost:3000
 | `/contact`   | Contato             |
 
 ---
-
 ## 📸 Preview
 
 <p align="center">
-<img src="img-project-wallop.png">
+  <img src="img-project-wallop.png" alt="Preview do projeto" width="600">
 </p>
 
 ---
