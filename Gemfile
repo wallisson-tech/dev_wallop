@@ -27,6 +27,8 @@ gem "jbuilder"
 # Database PostgreSQL
 gem "pg"
 
+# gem 'sqlite3', '~> 1.4'
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
