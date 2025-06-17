@@ -1,5 +1,7 @@
-<% if I18n.locale == I18n.default_locale %>
-    <%= link_to "English", {locale: :'en'}, class: 'link-secondary' %>
-<% else %>
-    <%= link_to "Português", {locale: :'pt-BR'}, class: 'link-secondary' %>
-<% end %>
+<div class="container d-flex align-items-center fixed-top justify-content-end">
+    <% if I18n.locale == I18n.default_locale %>
+        <%= link_to "English", {locale: :'en'}, class: 'link-secondary' %>
+    <% else %>
+        <%= link_to "Português", {locale: :'pt-BR'}, class: 'link-secondary' %>
+    <% end %>
+</div>
