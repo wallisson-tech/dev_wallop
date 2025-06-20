@@ -83,10 +83,10 @@ http://localhost:3000
 
 ## 👤 Autor
 
-**Wallisson Lopes** 
-🔗 [https://wallop.dev](https://wallop-dev.onrender.com/)
+**Wallisson Lopes**  
+🌐 [Website pessoal](https://wallop-dev.onrender.com/)  
+📧 E-mail: [wallissonlopes.ti@gmail.com](mailto:wallissonlopes.ti@gmail.com)  
 🐙 GitHub: [@wallisson-tech](https://github.com/wallisson-tech)
-📧 Email: wallissonlopes.ti@gmail.com
 
 ---
 
