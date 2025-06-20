@@ -84,27 +84,23 @@ http://localhost:3000
 ## 👤 Autor
 
 **Wallisson Lopes** 
-
-🔗 [https://wallop.dev] (https://wallop-dev.onrender.com/) 
-🐙 GitHub: [@wallisson-tech] (https://github.com/wallisson-tech) 
-📧 Email: wallissonlopes.ti@gmail.com 
+🔗 [https://wallop.dev](https://wallop-dev.onrender.com/)
+🐙 GitHub: [@wallisson-tech](https://github.com/wallisson-tech)
+📧 Email: wallissonlopes.ti@gmail.com
 
 ---
 
 ## 📬 Contribuições
-
 Pull Requests são bem-vindos! Fique à vontade para sugerir melhorias ou relatar problemas.
 
 ---
 
 ## 📝 Licença
-
 Este projeto está licenciado sob os termos da licença MIT.
 
 ```
 
 ### 📄 MIT License
-
 ```
 MIT License
 
