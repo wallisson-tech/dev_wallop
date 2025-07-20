@@ -41,3 +41,9 @@ body {
 .links a:hover{
   font-size: 2em;
 }
+
+.logo {
+  width: 100px; /* ajuste conforme necessário */
+  height: auto; /* mantém a proporção da imagem */
+  margin-right: 10px; /* espaço entre a imagem e o texto */
+}
