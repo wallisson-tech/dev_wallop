@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# db/seeds.rb
+Project.create!(
+  title: "Meu Primeiro Projeto",
+  description: "Descrição do projeto",
+  link: "https://github.com/wallisson-tech/dev_wallop",
+  image: "https://url-imagem.com/imagem.jpg"
+)
